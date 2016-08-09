@@ -5,6 +5,12 @@ A .git file is added. It sets up the repository for version control so that you 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+Staging Area - Place where files to be commited are.
+Working directory - is current directory with files not yet tracked by git.
+Repository - files on git and being tracked.
+
+Staging area allows you to select which files you would like to be on git and tracked.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
