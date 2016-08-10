@@ -31,5 +31,7 @@ Diagrams help you visualize parent nodes of each commit and their reachability. 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+A new node is created which then merges all the commits of both branches. making the last node of each branch the parent of the new merge node (usually the new master tip).
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
