@@ -26,6 +26,8 @@ You can fix bugs in working code (master branch) while working on new experiment
 
 How do the diagrams help you visualize the branch structure?
 
+Diagrams help you visualize parent nodes of each commit and their reachability. It will stop you from creating branch commits that can be unreachable (lost) later when you checkout to a different branch.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
