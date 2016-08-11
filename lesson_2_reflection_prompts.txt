@@ -28,6 +28,8 @@ How do the diagrams help you visualize the branch structure?
 
 Diagrams help you visualize parent nodes of each commit and their reachability. It will stop you from creating branch commits that can be unreachable (lost) later when you checkout to a different branch.
 
+* git log --graph --oneline (prints shortversion of graph in one line)
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
@@ -35,3 +37,10 @@ A new node is created which then merges all the commits of both branches. making
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Pros:
+* Saves you time, especially when each non-conflicting merge is trivial.
+* Makes you concentrate on the changes which actually contain conflicts.
+
+Cons:
+* Can make it easier to overlook the potentially dangerous situation where two person are working on the same file at the same time.
