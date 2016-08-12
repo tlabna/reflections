@@ -43,3 +43,6 @@ and what would be harder?
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
+
+    * When working with large groups, or working on an experimental feature. Working on separate branches ensure a working state master branch.
+    * When working on my own it would be more effective to work directly in the master branch.
